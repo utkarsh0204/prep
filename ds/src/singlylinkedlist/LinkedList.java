@@ -1,9 +1,9 @@
 package singlylinkedlist;
 
 public class LinkedList {
-	private Node head;
+	Node head;
 
-	private class Node {
+	class Node {
 		Node next;
 		int data;
 
